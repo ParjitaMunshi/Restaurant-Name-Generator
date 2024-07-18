@@ -12,28 +12,28 @@ Interactive Web Interface: Built with Streamlit for an easy-to-use, interactive 
 # Installation
 To run this project locally, follow these steps:
 
-## Clone the Repository:
+### Clone the Repository:
 git clone https://github.com/ParjitaMunshi/Restaurant-Name-Generator.git
 cd Restaurant-Name-Generator
 
-## Create a Virtual Environment:
+### Create a Virtual Environment:
 python -m venv myenv
 Activate the Virtual Environment:
 
-## On Windows:
+### On Windows:
 myenv\Scripts\activate
 source myenv/bin/activate
 
-## Install the Required Packages:
+### Install the Required Packages:
 
-## Set Up OpenAI API Key:
+### Set Up OpenAI API Key:
 Create a file named secret_key.py and add your OpenAI API key to it:
 
-## Run the Streamlit Application:
+### Run the Streamlit Application:
 streamlit run main.py
 open your web browser and go to http://localhost:8501 to access the application.
 
-## Enter Cuisine:
+### Enter Cuisine:
 Input the cuisine type that describes the desired restaurant theme (e.g., Italian, Mexican, Japanese).
 
 ## Generate Names and Menu Items:
